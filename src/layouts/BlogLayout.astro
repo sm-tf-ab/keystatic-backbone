@@ -1,0 +1,12 @@
+---
+export interface Props {
+    frontmatter: any;
+    slug: string;
+}
+
+const { frontmatter, slug } = Astro.props;
+frontmatter;
+slug;
+---
+
+<slot />
